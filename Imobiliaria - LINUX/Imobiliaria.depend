@@ -1,0 +1,210 @@
+# depslib dependency file v1.0
+1521655221 source:c:\users\aluno\desktop\lp1\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655289 c:\users\aluno\desktop\lp1\imobiliaria\cadastro.h
+
+1521655551 source:c:\users\aluno\desktop\lp1\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655221 source:d:\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521655289 d:\imobiliaria\cadastro.h
+
+1521821937 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521747297 c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\cadastro.h
+
+1521832765 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1521832591 c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1521832609 source:c:\users\aluno\desktop\projeto de lp1\projeto-1-master\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	"verificacao.h"
+	<conio.h>
+
+1521984026 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1521982475 c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\cadastro.h
+
+1521984026 c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1521984026 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1521984771 source:c:\users\cliente\desktop\backup\imobiliaria  - matheus\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+
+1522204600 source:d:\user\documents\github\projeto-1\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+
+1522204696 d:\user\documents\github\projeto-1\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522203901 d:\user\documents\github\projeto-1\imobiliaria\cadastro.h
+
+1522203900 source:d:\user\documents\github\projeto-1\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522204600 source:d:\user\documents\github\projeto-1\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1522348422 source:c:\users\cliente\desktop\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+
+1522361560 c:\users\cliente\desktop\imobiliaria\cadastro.h
+
+1522355243 c:\users\cliente\desktop\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522365328 source:c:\users\cliente\desktop\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522358423 source:c:\users\cliente\desktop\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+
+1522437861 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522437182 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\cadastro.h
+
+1522436845 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+
+1522355243 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\verificacao.h
+	"cadastro.h"
+
+1522437897 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\verificacao.c
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+	<conio.h>
+
+1522437814 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+	<conio.h>
+
+1522434173 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria\delete.h
+	"cadastro.h"
+
+1522583467 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"cadastro.h"
+
+1522437182 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\cadastro.h
+
+1522583467 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+	<conio.h>
+
+1522434173 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\delete.h
+	"cadastro.h"
+
+1522355243 c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\verificacao.h
+	"cadastro.h"
+
+1522583467 source:c:\users\cliente\desktop\backup\programação em c\projeto 1  - c\imobiliaria - gcc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+
