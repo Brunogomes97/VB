@@ -78,4 +78,5 @@ void cadAP(Timovel[],int);
 void cadTerreno(Timovel[],int);
 void cadStudio(Timovel[],int);
 void cadFlat(Timovel[],int);
+char *strupr(char *str);
 #endif

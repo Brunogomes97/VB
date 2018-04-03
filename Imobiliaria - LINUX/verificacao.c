@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #define MAX 100
 #include "verificacao.h"
-#include <conio.h>
+
 
 void exibirLocal(Timovel x){
     printf("Informacoes de localizacao:\n");
@@ -46,7 +45,7 @@ void exibirAP(Timovel x){
 
 void exibirFlat(Timovel x){
     printf("Informacoes especificas\n");
-    printf("Area do Flat   - %.2f m^2:\n",x.Flat.areaFL);
+    printf("Area do Flat          - %.2f m^2:\n",x.Flat.areaFL);
     printf("Numero de Quartos     - %d\n",x.Flat.quartosFL);
     printf("Posicao(referencia)   - %s\n",x.Flat.posicaoFL);
     printf("N de vagas na garagem - %d\n",x.Flat.vagasFl);
@@ -165,7 +164,7 @@ void exibir(Timovel local){
             printf("***************************\n");
             vendaImovel(local);
             printf("***************************\n\n");
-    }else if(local.tipoTimovel == 5){
+        }else if(local.tipoTimovel == 5){
             printf("****************************************\n");
             printf("STUDIO \n");
             printf("****************************************\n");
@@ -176,6 +175,7 @@ void exibir(Timovel local){
             vendaImovel(local);
             printf("***************************\n\n");
             }
+
         }
 
 void verificarQuantidade(Timovel local[]){
@@ -202,6 +202,7 @@ void verificarQuantidade(Timovel local[]){
 
     printf("%d Casa(s)\n%d Apartamento(s)\n%d Terrenos\n%d Flat(s)\n%d Studio(s)\n",casa,ap,terreno,flat,studio);
     printf("Digite alguma tecla para continuar...\n");
+    setbuf(stdin,NULL);
     getchar();
     system("clear");
 }
@@ -212,16 +213,18 @@ void verificarVenda(Timovel local[]){
 int i;
     system("clear");
     for(i=0;i<MAX;i++){
-            if(local[i].venda==1){
-                exibir(local[i]);
+        if(local[i].venda==1){
+            exibir(local[i]);
             }
     }
     printf("Digite alguma tecla para continuar...\n");
+    setbuf(stdin,NULL);
     getchar();
 }
 
 
 void verificarAlugar(Timovel local[]){
+
 
 int i;
     system("clear");
@@ -230,7 +233,9 @@ int i;
                 exibir(local[i]);
             }
     }
+
     printf("Digite alguma tecla para continuar...\n");
+    setbuf(stdin,NULL);
     getchar();
 }
 

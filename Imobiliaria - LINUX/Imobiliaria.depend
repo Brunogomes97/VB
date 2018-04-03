@@ -208,3 +208,41 @@
 	"verificacao.h"
 	"delete.h"
 
+1522770204 source:/home/bruno/VB/Imobiliaria - LINUX/cadastro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"cadastro.h"
+
+1522769832 /home/bruno/VB/Imobiliaria - LINUX/cadastro.h
+
+1522777071 source:/home/bruno/VB/Imobiliaria - LINUX/delete.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"delete.h"
+	"cadastro.h"
+	"verificacao.h"
+
+1522772049 /home/bruno/VB/Imobiliaria - LINUX/delete.h
+	"cadastro.h"
+
+1522585576 /home/bruno/VB/Imobiliaria - LINUX/verificacao.h
+	"cadastro.h"
+
+1522777125 source:/home/bruno/VB/Imobiliaria - LINUX/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"cadastro.h"
+	"verificacao.h"
+	"delete.h"
+
+1522776683 source:/home/bruno/VB/Imobiliaria - LINUX/verificacao.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"verificacao.h"
+

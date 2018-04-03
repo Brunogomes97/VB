@@ -10,4 +10,5 @@ void deAP(Timovel[],int);
 void deTer(Timovel[],int);
 void deFlat(Timovel[],int);
 void deStudio(Timovel[],int);
+
 #endif // DELETE_H_INCLUDED

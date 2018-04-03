@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define MAX 100
+#include <ctype.h>
 #include "cadastro.h"
 #include "verificacao.h"
 #include "delete.h"
@@ -62,13 +63,14 @@ int main(){
             k=0;
 
             printf("Digite alguma tecla para continuar...\n");
+            setbuf(stdin,NULL);
             getchar();
             system("clear");
             break;
 
         case 4:
-            verificarVenda(imo);
             system("clear");
+            verificarVenda(imo);
             break;
 
         case 5:
@@ -92,17 +94,16 @@ int main(){
         case 9:
             system("clear");
             deletarImovel(imo);
-            printf("Digite alguma tecla para continuar...\n");
-            getchar();
             system("clear");
             break;
 
         case 10:
-
             break;
+
         default:
             printf("Insira uma entrada valida!\n");
             printf("Digite alguma tecla para continuar...\n");
+            setbuf(stdin,NULL);
             getchar();
             system("clear");
             break;

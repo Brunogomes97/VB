@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <conio.h>
+#include <ctype.h>
 #define MAX 100
 #include "cadastro.h"
 
@@ -90,7 +90,7 @@ void cadCasa(Timovel local[],int i){
         scanf("%d",&local[i].casa.pavimentosC);
         printf("2-Insira o numero de quartos da casa:\n");
         scanf("%d",&local[i].casa.quartosC);
-        printf("3-Area do terreno(em metros quadrados:\n");
+        printf("3-Area do terreno(em metros quadrados):\n");
         scanf("%f",&local[i].casa.areaT);
         printf("4-Area do terreno construida(em metros quadrados):\n");
         scanf("%f",&local[i].casa.areaC);
@@ -182,7 +182,7 @@ void cadFlat(Timovel local[],int i){
         scanf("%d",&local[i].Flat.arFL);
         printf("6-O Flat possui internet e TV a cabo?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.internet_tvFL);
-        printf("7-O Flat possui serviços de lavanderia?(Sim - 1/Nao - 0):\n");
+        printf("7-O Flat possui servicos de lavanderia?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.lavanderiaFL);
         printf("8-O Flat possui arrumacao/limpeza?(Sim - 1/Nao - 0):\n");
         scanf("%d",&local[i].Flat.limpezaFL);
@@ -194,3 +194,19 @@ void cadFlat(Timovel local[],int i){
         system("clear");
     }while(x!=1);
 }
+
+
+char *strupr(char *str){
+    unsigned char *p = (unsigned char *)str;
+
+     while(*p){
+        *p = toupper(*p);
+         p++;
+
+     }
+     return str;
+
+    }
+
+
+
