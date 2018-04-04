@@ -114,15 +114,22 @@ void deletarImovel(Timovel x[]){
             deTer(x,n);
             deAP(x,n);
             x[n].tipoTimovel=0;
-        printf("Imovel deletado com sucesso!\n");
-    }else {
-        printf("Erro ao deletar o imovel correspondente!\n");
-    }
 
+       printf("Imovel deletado com sucesso!\n");
+       printf("Deseja sobrescrever o imovel deletado?(SIM - 1  | NAO - Qualquer outro numero)\n");
+       scanf("%d",&sb);
+       if(sb==1){
+            printf("O que deseja cadastrar?(Casa,apartamento,terreno,flat,studio):\n");
+            scanf(" %[^\n]s",imovel);
+            strupr(imovel);
+            Fcadastro(x,n,imovel);
+            }
+        }else {
+            printf("Erro ao deletar o imovel correspondente!\n");
+        }
     }else{
-        printf("Numero de cadastro acima do máximo permitido!\n");
+        printf("Numero de cadastro acima do maximo permitido!\n");
     }
-
     printf("Deseja Sair?(SIM - 1 ou qualquer numero para deletar outro imovel)\n");
     scanf("%d",&p);
     system("clear");
