@@ -266,9 +266,6 @@ void verificarAlugarBairro(Timovel local[]){
                 if(strcmp(x,p)==0){
                    exibir(local[i]);
                 }
-                else{
-                    continue;
-                }
             }
 
             printf("Digite 1 para sair ou qualquer numero para pesquisar novamente:\n");
@@ -307,9 +304,6 @@ void verificarVendaBairro(Timovel local[]){
                 if(strcmp(x,p)==0){
                     exibir(local[i]);
                 }
-                else{
-                    continue;
-                }
             }
 
             printf("Digite 1 para sair ou qualquer numero para pesquisar novamente:\n");
@@ -346,9 +340,6 @@ void verificarCidade(Timovel local[]){
                 strupr(p);
                 if(strcmp(x,p)==0){
                     exibir(local[i]);
-                }
-                else{
-                    continue;
                 }
             }
 
